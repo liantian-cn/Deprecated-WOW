@@ -1,0 +1,29 @@
+## Interface: 70200
+## Title: A Druid Routines For WOW
+## Version: 2.0
+## Author: liantian-cn@github
+
+
+
+base\setting.lua
+
+base\db.lua
+
+base\cast.lua
+base\buff.lua
+base\debuff.lua
+base\dot.lua
+base\talent.lua
+base\slot.lua
+
+base\player.lua
+
+
+Auto_Druid.xml
+Auto_Druid.lua
+
+
+moonkin.lua
+bear.lua
+cat.lua
+

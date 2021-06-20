@@ -1,0 +1,12 @@
+## Interface: 70200
+## Title: DamageTakingCalculator
+## Version: 2.0
+## Author: liantian-cn@github
+
+
+
+DamageTakingCalculator.lua
+
+
+DamageTakingCalculatorUI.xml
+DamageTakingCalculatorUI.lua

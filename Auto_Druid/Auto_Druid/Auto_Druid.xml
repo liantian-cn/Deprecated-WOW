@@ -1,0 +1,182 @@
+<Ui>
+    <Frame name="Auto_Druid_Frame" parent="UIParent" hidden="false" enableMouse="true" movable="true">
+        <Size x="90" y="60"/>
+        <Anchors>
+            <Anchor point="BOTTOMLEFT"/>
+        </Anchors>
+        <Layers>
+            <Layer level="BACKGROUND">
+                <Texture setAllPoints="true">
+                    <Color r="1" g="1" b="1" a="0.5"/>
+                </Texture>
+            </Layer>
+        </Layers>
+        <Frames>
+            <Button name="$parentButtonAdd" text="+">
+                <Size x="30" y="20"/>
+                <Anchors>
+                    <Anchor point="TOPRIGHT"/>
+                </Anchors>
+                <Layers>
+                    <Layer level="BACKGROUND">
+                        <Texture setAllPoints="true">
+                            <Color r="0" g="0" b="0" a="0.5"/>
+                        </Texture>
+                    </Layer>
+                </Layers>
+                <NormalFont style="GameFontNormal"/>
+                <PushedFont style="GameFontNormal"/>
+                <HighlightFont style="GameFontHighlight"/>
+            </Button>
+            <Button name="$parentButtonCut" text="-">
+                <Size x="30" y="20"/>
+                <Anchors>
+                    <Anchor point="TOPLEFT"/>
+                </Anchors>
+                <Layers>
+                    <Layer level="BACKGROUND">
+                        <Texture setAllPoints="true">
+                            <Color r="0" g="0" b="0" a="0.5"/>
+                        </Texture>
+                    </Layer>
+                </Layers>
+                <NormalFont style="GameFontNormal"/>
+                <PushedFont style="GameFontNormal"/>
+                <HighlightFont style="GameFontHighlight"/>
+            </Button>
+            <Button name="$parentButtonValue" text="1">
+                <Size x="30" y="20"/>
+                <Anchors>
+                    <Anchor point="TOP"/>
+                </Anchors>
+                <Layers>
+                    <Layer level="BACKGROUND">
+                        <Texture setAllPoints="true">
+                            <Color r="0.2" g="0.2" b="0.2" a="0.5"/>
+                        </Texture>
+                    </Layer>
+                </Layers>
+                <NormalFont style="GameFontNormal"/>
+                <PushedFont style="GameFontNormal"/>
+                <HighlightFont style="GameFontNormal"/>
+            </Button>
+            <Button name="$parentButtonBurst" text="爆发">
+                <Size x="40" y="20"/>
+                <Anchors>
+                    <Anchor point="LEFT">
+                        <!--<Offset>
+                            <AbsDimension x="0" y="10" />
+                        </Offset>-->
+                    </Anchor>
+                </Anchors>
+                <Layers>
+                    <Layer level="BACKGROUND">
+                        <Texture setAllPoints="true">
+                            <Color r="0" g="0" b="0" a="0.25"/>
+                        </Texture>
+                    </Layer>
+                </Layers>
+                <NormalFont style="GameFontNormal"/>
+                <PushedFont style="GameFontNormal"/>
+                <HighlightFont style="GameFontHighlight"/>
+            </Button>
+            <Button name="$parentButtonBurstValue" text="off">
+                <Size x="40" y="20"/>
+                <Anchors>
+                    <Anchor point="RIGHT">
+                        <!--<Offset>
+                            <AbsDimension x="0" y="10" />
+                        </Offset>-->
+                    </Anchor>
+                </Anchors>
+                <Layers>
+                    <Layer level="BACKGROUND">
+                        <Texture setAllPoints="true">
+                            <Color r="0" g="0" b="0" a="0.25"/>
+                        </Texture>
+                    </Layer>
+                </Layers>
+                <NormalFont style="GameFontNormal"/>
+                <PushedFont style="GameFontNormal"/>
+                <HighlightFont style="GameFontNormal"/>
+            </Button>
+            <Button name="$parentButtonAOE" text="AOE">
+                <Size x="45" y="20"/>
+                <Anchors>
+                    <Anchor point="BOTTOMLEFT">
+                        <!--<Offset>
+                            <AbsDimension x="0" y="-10" />
+                        </Offset>-->
+                    </Anchor>
+                </Anchors>
+                <Layers>
+                    <Layer level="BACKGROUND">
+                        <Texture setAllPoints="true">
+                            <Color r="0" g="0" b="0" a="0.25"/>
+                        </Texture>
+                    </Layer>
+                </Layers>
+                <NormalFont style="GameFontNormal"/>
+                <PushedFont style="GameFontNormal"/>
+                <HighlightFont style="GameFontHighlight"/>
+            </Button>
+            <Button name="$parentButtonAOEValue" text="player">
+                <Size x="45" y="20"/>
+                <Anchors>
+                    <Anchor point="BOTTOMRIGHT">
+                        <!--<Offset>
+                            <AbsDimension x="0" y="-10" />
+                        </Offset>-->
+                    </Anchor>
+                </Anchors>
+                <Layers>
+                    <Layer level="BACKGROUND">
+                        <Texture setAllPoints="true">
+                            <Color r="0" g="0" b="0" a="0.25"/>
+                        </Texture>
+                    </Layer>
+                </Layers>
+                <NormalFont style="GameFontNormal"/>
+                <PushedFont style="GameFontNormal"/>
+                <HighlightFont style="GameFontNormal"/>
+            </Button>
+            <!--<Button name="$parentButtonScript" text="脚本">
+                <Size x="40" y="20"/>
+                <Anchors>
+                    <Anchor point="BOTTOMLEFT"/>
+                </Anchors>
+                <Layers>
+                    <Layer level="BACKGROUND">
+                        <Texture setAllPoints="true">
+                            <Color r="0" g="0" b="0" a="0.25"/>
+                        </Texture>
+                    </Layer>
+                </Layers>
+                <NormalFont style="GameFontNormal"/>
+                <PushedFont style="GameFontNormal"/>
+                <HighlightFont style="GameFontHighlight"/>
+            </Button>
+            <Button name="$parentButtonScriptValue" text="off">
+                <Size x="40" y="20"/>
+                <Anchors>
+                    <Anchor point="BOTTOMRIGHT"/>
+                </Anchors>
+                <Layers>
+                    <Layer level="BACKGROUND">
+                        <Texture setAllPoints="true">
+                            <Color r="0" g="0" b="0" a="0.25"/>
+                        </Texture>
+                    </Layer>
+                </Layers>
+                <NormalFont style="GameFontNormal"/>
+                <PushedFont style="GameFontNormal"/>
+                <HighlightFont style="GameFontNormal"/>
+            </Button>-->
+        </Frames>
+        <Scripts>
+            <OnLoad>self:RegisterForDrag("LeftButton");</OnLoad>
+            <OnDragStart>self:StartMoving();</OnDragStart>
+            <OnDragStop>self:StopMovingOrSizing();</OnDragStop>
+        </Scripts>
+    </Frame>
+</Ui>

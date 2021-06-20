@@ -1,0 +1,33 @@
+<Ui>
+    <Frame name="DamageTakingCalculatorFrame" parent="UIParent" hidden="false" enableMouse="true" movable="true">
+        <Size x="150" y="20"/>
+        <Anchors>
+            <Anchor point="BOTTOMLEFT"/>
+        </Anchors>
+        <Layers>
+            <Layer level="BACKGROUND">
+                <Texture setAllPoints="true">
+                    <Color r="1" g="1" b="1" a="0.5"/>
+                </Texture>
+            </Layer>
+        </Layers>
+        <Frames>
+            <Button name="DamageTakingCalculatorTextFrame" text="1234567890">
+                <Size x="150" y="20"/>
+                <Anchors>
+                    <Anchor point="TOPRIGHT"/>
+                </Anchors>
+                <Layers>
+                    <Layer level="BACKGROUND">
+                        <Texture setAllPoints="true">
+                            <Color r="0" g="0" b="0" a="0.5"/>
+                        </Texture>
+                    </Layer>
+                </Layers>
+                <NormalFont style="GameFontNormal"/>
+                <PushedFont style="GameFontNormal"/>
+                <HighlightFont style="GameFontHighlight"/>
+            </Button>
+        </Frames>
+    </Frame>
+</Ui>
